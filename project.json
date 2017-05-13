@@ -1,5 +1,5 @@
 {
-	"description" : "Project Animeloop from MOEOVERFLOW\n\nmoeoverflow.org",
+	"description" : "Project Animeloop from MOEOVERFLOW\r\n\r\nhttps://loop.moeoverflow.org",
 	"file" : "index.html",
 	"general" : 
 	{
@@ -11,11 +11,29 @@
 				"text" : "ui_browse_properties_scheme_color",
 				"type" : "color",
 				"value" : "0 0 0"
+			},
+			"showinfo" :
+			{
+				"text" : "显示来源信息",
+				"type" : "bool",
+				"value" : false
+			},
+			"updateinterval" :
+			{
+				"editable" : true,
+				"max" : 120,
+				"min" : 10,
+				"text" : "画面切换间隔",
+				"type" : "slider",
+				"value" : 15
 			}
 		}
 	},
+	"monetization" : false,
+	"preview" : "preview.jpg",
 	"tags" : [ "Anime" ],
 	"title" : "Animeloop Wallpaper",
 	"type" : "web",
-	"visibility" : "public"
+	"visibility" : "public",
+	"workshopid" : 924673900
 }
